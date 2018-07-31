@@ -3,7 +3,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "pr-1319-4-production"
+    DEPLOY_NAMESPACE = "pr-1401-1-production"
   }
   stages {
     stage('Validate Environment') {
